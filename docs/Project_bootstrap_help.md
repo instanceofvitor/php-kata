@@ -10,3 +10,17 @@ curl -sS https://getcomposer.org/installer | php
 composer init
 php composer.phar require phpunit/phpunit
 ```
+
+3. Create phpunit configuration
+
+/phpunit.xml.dist
+
+```
+<phpunit bootstrap="tests/bootstrap.php">
+    <testsuites>
+        <testsuite name="php-kata">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
+```
