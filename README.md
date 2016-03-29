@@ -4,3 +4,4 @@
 2. Initialize composer    
 3. Add phpunit using composer
 4. Create phpunit setup files
+5. Create sample test file that asserts same 2, 1 + 1
